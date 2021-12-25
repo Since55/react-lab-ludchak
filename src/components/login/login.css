@@ -1,0 +1,35 @@
+.login {
+    width: fit-content;
+    background-color: #333544;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #06a292;
+}
+
+.login-form > input {
+    display: block;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #06a292;
+    color: #06a292;
+    margin-bottom: 1rem;
+}
+
+.login-form > input[type='submit'] {
+    border: 2px solid #06a292;
+    margin: 10px auto;
+    padding: 5px 10px;
+    
+}
+
+
+.login h3 {
+    color: white;
+    margin: 0;
+    margin-bottom: 10px;
+}

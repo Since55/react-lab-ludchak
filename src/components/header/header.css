@@ -1,0 +1,22 @@
+.header-main {
+    background-color: #333544;
+}
+
+.header-main > a > button{
+    width: 80px;
+    background-color: #166f6f;
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 30px;
+    margin-right: 1px;
+}
+
+.header-main > a >button:hover {
+    background-color: #06a292;;
+}
+
+.header-main > a > button:active {
+    transform: scale(1.1);
+    animation: ease 1ms;
+}
